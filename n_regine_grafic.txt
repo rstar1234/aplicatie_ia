@@ -1,0 +1,17 @@
+8x8 bt 3.176
+12x12 bt 20.405
+15x15 bt 33.15
+20x20 bt 48.237
+25x25 bt 41.605
+8x8 alpinist 21.431
+12x12 alpinist 306.74
+15x15 alpinist 936.132
+20x20 alpinist 199.476
+25x25 alpinist 89.196
+8x8 genetic 17.28
+12x12 genetic 21.63
+15x15 genetic 107.861
+20x20 genetic 258.244
+25x25 genetic 961.1648x8 bt 15.51
+8x8 alpinist 22.173
+8x8 genetic 0.0

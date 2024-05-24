@@ -1,0 +1,4 @@
+nearest_neighbor 16 0.0 
+nearest_neighbor 16 0.0 
+bt 10 299.52 
+nearest_neighbor 10 0.0 
