@@ -143,15 +143,3 @@ class GAChess:
         for i in range(self.size):
             displayed_solution[i][solution[i]] = 1
         printSolution(displayed_solution, self.size)
-
-# MAIN CODE
-# dimension = int(input("Enter board dimension: "))
-# chess = GAChess(dimension)
-
-# start = datetime.now()
-# solution = chess.solveGA()
-# end = datetime.now()
-
-# print("Solution (GA):")
-# chess.printSolution(solution)
-# print((end - start).microseconds / 1000)

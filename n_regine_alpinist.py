@@ -172,10 +172,3 @@ class AlpinistChess:
             elif self.calculateObjective(self.board, state) == self.calculateObjective(neighbourBoard, neighbourState):
                 neighbourState[randint(0, 100000) % self.size]  = randint(0, 100000) % self.size
                 neighbourBoard = self.generateBoard(neighbourState)
-
-#testing
-
-# n = int(input("Marimea tablei: "))
-# board = AlpinistChess(n)
-# state = [0] * n
-# board.alg_alpinistului(state)

@@ -44,17 +44,3 @@ class ComisVoiajor:
             temp = lines[i].strip().split()
             new_graph[i] = [int(x) for x in temp]
         return ComisVoiajor(new_graph)
-                
-#testing
-# graph = [
-#     [0, 10, 15, 20],
-#     [10, 0, 35, 25],
-#     [15, 35, 0, 30],
-#     [20, 25, 30, 0]
-# ]
-
-# cv = ComisVoiajor.read_graph_from_file('graf.txt')
-# min_cost, path = cv.find_min_cost_path()
-
-# print(f"Min cost: {min_cost}")
-# print(f"Path: {path}")

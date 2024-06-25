@@ -46,9 +46,3 @@ class BTChess:
     
         printSolution(self.board, self.size)
         return True
-
-#test
-# dimension = int(input("Enter board size: "))
-# board = BTChess(dimension)
-
-# board.rezolvaBT()

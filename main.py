@@ -8,8 +8,6 @@ import utility_functions
 import matplotlib.pyplot as plt
 from datetime import datetime
 
-#TODO: measure the time for all algorithms and plot the 2 travelling salesman ones into another
-
 
 while True:
     input()

@@ -40,15 +40,3 @@ class NComisVoiajor:
             temp = lines[i].strip().split()
             new_graph[i] = [int(x) for x in temp]
         return NComisVoiajor(new_graph)
-    
-#testing
-# graph = [
-#     [0, 2, 9, 10],
-#     [1, 0, 6, 4],
-#     [15, 7, 0, 8],
-#     [6, 3, 12, 0]
-# ]
-# ncv = NComisVoiajor(graph)
-# route, total_distance = ncv.comis_voiajor_cal_mai_apropiat_vecin()
-# print(route)
-# print(total_distance)
